@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body bgcolor="ffc34d">
+<h1> Welcome to <%= node["MOTD"]["company"]%></h1>
+<h2>We love to have <%= @site_name %></h2>
+<%= node["ipaddress"] %>:<%= @port %>
+<p>We configured this in the attributes </p>
+
+</body>
+</html>
